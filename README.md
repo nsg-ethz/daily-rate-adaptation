@@ -19,6 +19,9 @@ conda activate OVH
 
 The [`hotcarbon23.ipynb`](hotcarbon23.ipynb) walks through the analysis presented in the paper. Most likely, that is where you should start. 
 
+> All plots are saved within the notebook, to allow visualization without re-running it. The downside is that the file is fairly large (50MB) and GitHub won't let you view it. You can use `nbviewer` instead.  
+[![nbviewer](https://img.shields.io/badge/render-nbviewer-orange.svg?logo=jupyter) ](https://nbviewer.org/github/nsg-ethz/daily-rate-adaptation/blob/main/hotcarbon23.ipynb)
+
 All the scripts used for the analysis are provided: 
 
 - [`helpers/download_OVH.py`](helpers/download_OVH.py) allows to conveniently download the entire OVH dataset (beware, it's about 54GB).
