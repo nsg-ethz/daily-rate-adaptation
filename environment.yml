@@ -1,0 +1,16 @@
+name: OVH
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - pip
+  - dash
+  - plotly=5.14.1
+  - pandas
+  - ipykernel
+  - nbformat
+  - pyyaml
+  - statsmodels
+  - python-kaleido
+  - pydataverse
+prefix: /home/user/miniconda3/envs/OVH
